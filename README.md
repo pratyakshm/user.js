@@ -1,5 +1,4 @@
-# firefox_config
-
+# Privacy
 
 ## Disable telemetry
 Change `browser.newtabpage.activity-stream.feeds.telemetry` to **false**  
@@ -31,3 +30,13 @@ Firefox 88 introduced the ability to execute JavaScript in PDF documents. While 
 Change `security.ssl3.rsa_des_ede3_sha` to **false**   
 Change `security.ssl.require_safe_negotiation` to **true**  
 Making these changes will disable insecure SSL ciphers and force safe negotiation
+
+***
+
+# UX
+
+## Make Firefox use Windows Notifications to deliver its notifications
+Set `alerts.useSystemBackend` to **true**
+
+## Contributions
+- [Chris' Firefox hardening guide](https://chrisx.xyz/blog/yet-another-firefox-hardening-guide/)
