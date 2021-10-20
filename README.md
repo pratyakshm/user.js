@@ -38,5 +38,8 @@ Making these changes will disable insecure SSL ciphers and force safe negotiatio
 ## Make Firefox use Windows Notifications to deliver its notifications
 Set `alerts.useSystemBackend` to **true**
 
-## Contributions
+# Contributions
 - [Chris' Firefox hardening guide](https://chrisx.xyz/blog/yet-another-firefox-hardening-guide/)
+
+# Related 
+- [Awesome Firefox Addons](https://github.com/pratyakshm/awesome_firefox_addons) is a list of Firefox addons I use that make the Internet experience better.
