@@ -63,3 +63,6 @@ user_pref("security.ssl.require_safe_negotiation", true);
 
 // Use OS's backend for notification delivery
 user_pref("alerts.useSystemBackend", true);
+
+// Show compact mode option in density
+user_pref("browser.compactmode.show", true);
