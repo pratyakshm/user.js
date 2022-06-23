@@ -1,45 +1,29 @@
-# Privacy
+# ℹ️ Introduction
 
-## Disable telemetry
-Change `browser.newtabpage.activity-stream.feeds.telemetry` to **false**  
-Change `browser.ping-centre.telemetry` to **false**    
-Change `browser.tabs.crashReporting.sendReport` to **false**  
-Change `devtools.onboarding.telemetry.logged` to **false**  
-Change `toolkit.telemetry.enabled` to **false**  
-Delete the URL for `toolkit.telemetry.server`, and leave it empty    
-Change `toolkit.telemetry.unified` to **false**  
-
-## Disable Pocket
-Change `browser.newtabpage.activity-stream.section.highlights.includePocket` to **false**  
-Change `extensions.pocket.enabled` to **false**  
-If you don't use Pocket, or you don't want Firefox's Pocket integration, you can make these changes.
-
-## Disable prefetching [L1]
-Change `network.dns.disablePrefetch` to **true**  
-Change `network.prefetch-next` to **false**  
-
-Even though prefetching may speed things up a bit, it may connect to servers without user intervention (which can be a privacy issue) and its performance benefits are minimal. Making these changes will disable prefetching:  
+This is my personal user.js that I use across my Windows devices. It is a modified version of [arkenfox/user.js](https://github.com/arkenfox/user.js). The differences between this and arkenfox's user.js are not documented. If you want to learn what this config does, peek into the user.js file itself since it has all the necessary comments that you need to educate yourself.
 
 
-## Disable JavaScript in PDF
-To disable JavaScript support in PDF documents, change ``pdfjs.enableScripting`` to **false**
+## ➕ Things added:
 
-Firefox 88 introduced the ability to execute JavaScript in PDF documents. While there are legitimate uses for JavaScript in PDF (such as form validation), such uses are not very common. In addition, it could be used for malicious purposes, so it's generally a good idea to disable this feature.  
+- Smooth scrolling derived from [AveYo/fox](https://github.com/AveYo/fox/blob/main/Natural%20Smooth%20Scrolling%20for%20user.js).
 
-## Harden SSL preferences
-Change `security.ssl3.rsa_des_ede3_sha` to **false**   
-Change `security.ssl.require_safe_negotiation` to **true**  
-Making these changes will disable insecure SSL ciphers and force safe negotiation
+- Mica material powered by [MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone) with CSS from [QNetITQ/WaveFox](https://github.com/QNetITQ/WaveFox).
 
-***
+## Screenshots
 
-# UX
+<details><summary> Tap to expand/collapse</summary>
 
-## Make Firefox use Windows Notifications to deliver its notifications
-Set `alerts.useSystemBackend` to **true**
+![Light theme](https://i.imgur.com/JA3aro8.png)
+![Light theme with application menu](https://i.imgur.com/ydWSICJ.png)
+![Showing off Mica in Light Bloom Wallpaper](https://i.imgur.com/qGs41fw.png)
+![Dark theme](https://i.imgur.com/vfJnr86.png)
+![Dark theme with application menu](https://i.imgur.com/8P72frB.png)
+![Showing off Mica in Dark Bloom Wallpaper](https://i.imgur.com/RbtjVRX.png) 
+  
+</details>
 
-# Contributions
-- [Chris' Firefox hardening guide](https://chrisx.xyz/blog/yet-another-firefox-hardening-guide/)
 
-# Related 
+<!--  # Related 
+
 - [Awesome Firefox Addons](https://github.com/pratyakshm/awesome_firefox_addons) is a list of Firefox addons I use that make the Internet experience better.
+-->
