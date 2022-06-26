@@ -1410,5 +1410,11 @@
    user_pref("Style.Separators-Saturation-Low", true);
    user_pref("Style.Menu-Icons-Regular", true);
    user_pref("Style.Proton", true);
+  
+   // Use OS's native notifications channel
+   user_pref("alerts.useSystemBackend", true);
 
+   // Enable Windows Hello sign in for Microsoft accounts
+   user_pref("network.http.windows-sso.enabled". true);
+  
 ///
