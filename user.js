@@ -1403,10 +1403,10 @@
    user_pref("layout.css.color-mix.enabled", true);
    user_pref("Style.Win11-Mica-Acrylic", true);
    user_pref("Style.Toolbar-Full-Transparency", true);
-   user_pref("Style.Main-Shadow-Blur-Very-High", true);
-   user_pref("Style.Main-Shadow-Saturation-Very-High", true);
-   user_pref("Style.Additional-Shadow-Blur-Very-High", true);
-   user_pref("Style.Additional-Shadow-Saturation-Very-High", true);
+   user_pref("Style.Main-Shadow-Blur-Medium", true);
+   user_pref("Style.Main-Shadow-Saturation-Medium", true);
+   user_pref("Style.Additional-Shadow-Blur-Medium", true);
+   user_pref("Style.Additional-Shadow-Saturation-Medium", true);
    user_pref("Style.Separators-Saturation-Low", true);
    user_pref("Style.Menu-Icons-Regular", true);
    user_pref("Style.Proton", true);
